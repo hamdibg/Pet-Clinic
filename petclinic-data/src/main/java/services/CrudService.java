@@ -1,5 +1,7 @@
 package services;
 
+import guru.springframework.sfgpetclinic.model.Owner;
+
 import java.util.Set;
 
 public interface CrudService<T, ID>{
@@ -11,4 +13,6 @@ public interface CrudService<T, ID>{
     T save(T object);
 
     void delete(T object);
+
+    void deleteById(Long ID);
 }
