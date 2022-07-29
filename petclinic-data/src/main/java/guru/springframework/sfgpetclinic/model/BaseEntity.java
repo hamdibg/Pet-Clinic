@@ -6,7 +6,7 @@ public class BaseEntity implements Serializable {
 
     private Long id;
 
-    public Long getId() {
+    public Long getId(long l) {
         return id;
     }
 
