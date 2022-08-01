@@ -1,8 +1,8 @@
-package services.map;
+package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Vet;
 import org.springframework.stereotype.Service;
-import services.VetService;
+import guru.springframework.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 @Service
@@ -16,10 +16,8 @@ public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetSe
 
     @Override
     public Vet save(Vet object) {
-        return super.save(object.getId(1L), object);
+        return super.save(object.getId(), object);
     }
-
-
     @Override
     public Vet findById(Long id) {
         return super.findById(id);
