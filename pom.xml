@@ -13,7 +13,7 @@
 		<version>2.7.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>guru.springframework</groupId>
+	<groupId>com.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>sfg-pet-clinic</name>
